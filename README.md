@@ -4,9 +4,9 @@ Scrapy
 Installation
 -----------------------
 To install scrapy on Ubuntu
->       sudo apt-get install python-dev
->	sudo apt-get install python-pip
->       sudo pip install Scrapy
+>       sudo apt-get install python-dev<br/>
+	sudo apt-get install python-pip<br/>
+	sudo pip install Scrapy
 
 Source Code of Scrapy : https://github.com/scrapy/scrapy
 
