@@ -3,17 +3,16 @@ Scrapy
 
 Installation
 -----------------------
-To install scrapy on Ubuntu
-	sudo apt-get install python-dev<br/>
-	sudo apt-get install python-pip<br/>
-	sudo pip install Scrapy
+        sudo apt-get install python-dev<br/>
+	    sudo apt-get install python-pip<br/>
+	    sudo pip install Scrapy
 
 Source Code of Scrapy : https://github.com/scrapy/scrapy
 
 Examples
 -----------------------
 - hello_world <br/>
-	This is the hello world example for scrapy. In this example we simple create a spider and craw a website and print its contents onto the screen.
+    This is the hello world example for scrapy. In this example we simple create a spider and craw a website and print its contents onto the screen.
 - basic_spider<br/>
 	This is a simple one page parser that generates a csv file out of it.
 - recursive-spider<br/>
@@ -24,20 +23,20 @@ Examples
 How to Execute
 ---------------------
 1. Download the repository
-	git clone https://github.com/arpitbbhayani/scrapy_python.git
+	    git clone https://github.com/arpitbbhayani/scrapy_python.git
 2. Install scrapy and setup your machine
-	sudo apt-get install python-dev
-	sudo apt-get install python-pip
-	sudo pip install Scrapy
+	    sudo apt-get install python-dev
+	    sudo apt-get install python-pip
+	    sudo pip install Scrapy
 3. Execute a spider
 * hello-world
-	scrapy runspider scrapy_python/hello_world/hello_world/spiders/hello_world_spider.py
+        scrapy runspider scrapy_python/hello_world/hello_world/spiders/hello_world_spider.py
 * b. basic-spider
-	scrapy runspider scrapy_python/basic_spider/basic_spider/spiders/BasicSpider.py
+        scrapy runspider scrapy_python/basic_spider/basic_spider/spiders/BasicSpider.py
 * c. recursive-spider
-		<br/><code>scrapy runspider scrapy_python/recursive_spider/recursive_spider/spiders/BasicSpider.py
+        scrapy runspider scrapy_python/recursive_spider/recursive_spider/spiders/BasicSpider.py
 * d. linkedin-crawler
-	scrapy runspider scrapy_python/linkedin_crawler/linkedin_crawler/spiders/LinkedInSpider.py
+        scrapy runspider scrapy_python/linkedin_crawler/linkedin_crawler/spiders/LinkedInSpider.py
 
 Tutorials
 -----------------------
