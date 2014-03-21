@@ -13,3 +13,8 @@ NEWSPIDER_MODULE = 'linked_crawler.spiders'
 
 # Crawl responsibly by identifying yourself (and your website) on the user-agent
 #USER_AGENT = 'linked_crawler (+http://www.yourdomain.com)'
+
+
+ITEM_PIPELINES = [
+        'linked_crawler.pipelines.LinkedCrawlerPipeline'
+]
