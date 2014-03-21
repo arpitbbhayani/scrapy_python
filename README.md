@@ -24,11 +24,11 @@ Examples
 How to Execute
 ---------------------
 > 1. Download the repository
->		git clone https://github.com/arpitbbhayani/scrapy_python.git
+>		<code>git clone https://github.com/arpitbbhayani/scrapy_python.git</code>
 > 2. Install scrapy and setup your machine
->		sudo apt-get install python-dev
+>		<code>sudo apt-get install python-dev
 >		sudo apt-get install python-pip
->		sudo pip install Scrapy
+>		sudo pip install Scrapy</code>
 > 3. Execute a spider
 >	a. hello-world
 >		scrapy runspider scrapy_python/hello_world/hello_world/spiders/hello_world_spider.py
