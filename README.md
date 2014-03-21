@@ -26,9 +26,9 @@ How to Execute
 > 1. Download the repository
 >		<code>git clone https://github.com/arpitbbhayani/scrapy_python.git</code>
 > 2. Install scrapy and setup your machine
->		<code>sudo apt-get install python-dev
->		sudo apt-get install python-pip
->		sudo pip install Scrapy</code>
+>		<code>sudo apt-get install python-dev</code>
+>		<code>sudo apt-get install python-pip</code>
+>		<code>sudo pip install Scrapy</code>
 > 3. Execute a spider
 >	a. hello-world
 >		scrapy runspider scrapy_python/hello_world/hello_world/spiders/hello_world_spider.py
