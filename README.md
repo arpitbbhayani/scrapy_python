@@ -24,20 +24,20 @@ Examples
 How to Execute
 ---------------------
 > 1. Download the repository
->		<code>git clone https://github.com/arpitbbhayani/scrapy_python.git</code>
+>		<br/><code>git clone https://github.com/arpitbbhayani/scrapy_python.git</code>
 > 2. Install scrapy and setup your machine
->		<code>sudo apt-get install python-dev</code>
->		<code>sudo apt-get install python-pip</code>
->		<code>sudo pip install Scrapy</code>
+>		<br/><code>sudo apt-get install python-dev</code>
+>		<br/><code>sudo apt-get install python-pip</code>
+>		<br/><code>sudo pip install Scrapy</code>
 > 3. Execute a spider
 >	a. hello-world
->		scrapy runspider scrapy_python/hello_world/hello_world/spiders/hello_world_spider.py
+>		<br/><code>scrapy runspider scrapy_python/hello_world/hello_world/spiders/hello_world_spider.py</code>
 >	b. basic-spider
->		scrapy runspider scrapy_python/basic_spider/basic_spider/spiders/BasicSpider.py
+>		<br/><code>scrapy runspider scrapy_python/basic_spider/basic_spider/spiders/BasicSpider.py</code>
 >	c. recursive-spider
->		scrapy runspider scrapy_python/recursive_spider/recursive_spider/spiders/BasicSpider.py
+>		<br/><code>scrapy runspider scrapy_python/recursive_spider/recursive_spider/spiders/BasicSpider.py</code>
 >	d. linkedin-crawler
->		scrapy runspider scrapy_python/linkedin_crawler/linkedin_crawler/spiders/LinkedInSpider.py
+>		<br/><code>scrapy runspider scrapy_python/linkedin_crawler/linkedin_crawler/spiders/LinkedInSpider.py</code>
 
 Tutorials
 -----------------------
