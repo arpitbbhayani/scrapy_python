@@ -4,7 +4,7 @@ Scrapy
 Installation
 -----------------------
 To install scrapy on Ubuntu
->       sudo apt-get install python-dev<br/>
+	sudo apt-get install python-dev<br/>
 	sudo apt-get install python-pip<br/>
 	sudo pip install Scrapy
 
@@ -23,21 +23,21 @@ Examples
 
 How to Execute
 ---------------------
-> 1. Download the repository
->		<br/><code>git clone https://github.com/arpitbbhayani/scrapy_python.git</code>
-> 2. Install scrapy and setup your machine
->		<br/><code>sudo apt-get install python-dev</code>
->		<br/><code>sudo apt-get install python-pip</code>
->		<br/><code>sudo pip install Scrapy</code>
-> 3. Execute a spider
->	a. hello-world
->		<br/><code>scrapy runspider scrapy_python/hello_world/hello_world/spiders/hello_world_spider.py</code>
->	<br/>b. basic-spider
->		<br/><code>scrapy runspider scrapy_python/basic_spider/basic_spider/spiders/BasicSpider.py</code>
->	<br/>c. recursive-spider
->		<br/><code>scrapy runspider scrapy_python/recursive_spider/recursive_spider/spiders/BasicSpider.py</code>
->	<br/>d. linkedin-crawler
->		<br/><code>scrapy runspider scrapy_python/linkedin_crawler/linkedin_crawler/spiders/LinkedInSpider.py</code>
+1. Download the repository
+	git clone https://github.com/arpitbbhayani/scrapy_python.git
+2. Install scrapy and setup your machine
+	sudo apt-get install python-dev
+	sudo apt-get install python-pip
+	sudo pip install Scrapy
+3. Execute a spider
+* hello-world
+	scrapy runspider scrapy_python/hello_world/hello_world/spiders/hello_world_spider.py
+* b. basic-spider
+	scrapy runspider scrapy_python/basic_spider/basic_spider/spiders/BasicSpider.py
+* c. recursive-spider
+		<br/><code>scrapy runspider scrapy_python/recursive_spider/recursive_spider/spiders/BasicSpider.py
+* d. linkedin-crawler
+	scrapy runspider scrapy_python/linkedin_crawler/linkedin_crawler/spiders/LinkedInSpider.py
 
 Tutorials
 -----------------------
