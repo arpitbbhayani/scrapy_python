@@ -32,11 +32,11 @@ How to Execute
 > 3. Execute a spider
 >	a. hello-world
 >		<br/><code>scrapy runspider scrapy_python/hello_world/hello_world/spiders/hello_world_spider.py</code>
->	b. basic-spider
+>	<br/>b. basic-spider
 >		<br/><code>scrapy runspider scrapy_python/basic_spider/basic_spider/spiders/BasicSpider.py</code>
->	c. recursive-spider
+>	<br/>c. recursive-spider
 >		<br/><code>scrapy runspider scrapy_python/recursive_spider/recursive_spider/spiders/BasicSpider.py</code>
->	d. linkedin-crawler
+>	<br/>d. linkedin-crawler
 >		<br/><code>scrapy runspider scrapy_python/linkedin_crawler/linkedin_crawler/spiders/LinkedInSpider.py</code>
 
 Tutorials
