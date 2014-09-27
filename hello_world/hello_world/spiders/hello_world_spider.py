@@ -12,5 +12,6 @@ class HelloWorldSpider(Spider):
 
 
     def parse(self, response):
+        print "Hello Arpit"
         filename = response.url.split("/")[-2]
         open(filename , "wb" ).write(response.body)

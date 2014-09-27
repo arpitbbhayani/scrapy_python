@@ -13,7 +13,7 @@ class LinkedInSpider(CrawlSpider):
     '''
     name = "LinkedinSpider"
     start_urls = [
-        "http://www.linkedin.com/directory/people-a-87-15-70"
+        "http://www.linkedin.com/directory/people-a"
     ]
     allowed_domains = ["linkedin.com"]
 
@@ -29,6 +29,8 @@ class LinkedInSpider(CrawlSpider):
         list_exp = []
         list_edu = []
         list_pro = []
+
+        open("file_url.txt" , "a").write(response.url + "\n");
 
         if response.url.find('/pub/dir') == -1 and response.url.find('/directory/') == -1:
             selector = Selector(response)

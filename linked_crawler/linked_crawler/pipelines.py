@@ -8,7 +8,7 @@ import io
 class LinkedCrawlerPipeline(object):
 
     def __init__(self):
-        self.file = io.open("linkedin_dump.xml", "w" , encoding='utf8')
+        self.file = io.open("/media/devilo/Disk Ahead/linkedin_dump.xml", "w" , encoding='utf8')
         self.file.write(u'<?xml version="1.0" encoding="utf8"?>\n')
         self.file.write(u'<pros>')
 
